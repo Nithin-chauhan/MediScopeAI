@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environments
+.env
+
+# Database files
+*.db
+*.sqlite3
+mediscope.db
+
+# Generated PDF reports
+backend/reports/generated_pdfs/*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+mediscope_db.sqlite
